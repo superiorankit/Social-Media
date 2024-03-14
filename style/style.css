@@ -583,10 +583,11 @@ nav{
     }
 
     .coffee-time-txt>h1{
-        font-size: 6em;
+        font-size: 5.6em;
     width: 20px;
     line-height: 1.2;
     margin-top: 23px;
+    margin-top: 1%;
     }
 
 
@@ -600,6 +601,10 @@ nav{
 
     .coffee-time-txt>.order-btn{
         margin: 12px 0;
+    }
+
+    .coffee-time-img{
+        width: 200px;
     }
 
 
@@ -620,33 +625,37 @@ nav{
     .black-white-coffee-txt>h1{
         width: 100%;
         font-size: 4.9em;
-        position: relative;
-        bottom: -363px;
+        position: absolute;
+        top: 0;
+        left: 0;
         text-align: center;
         letter-spacing: 1;
     }
 
     .black-white-coffee-txt>.order-btn{
         margin: 3% auto;
-        position: relative;
-        bottom: -493px;
+        position: absolute;
+        bottom: 0;
     }
 
     .black-white-coffee-img{
         width: 100%;
+        margin-top: 24%;
         position: relative;
-        top: -107px;
     }
 
     .black-white-coffee>p{
         width: 100%;
-    margin: 0;
-    text-align: justify;
+        margin: 0;
+        margin-top: 21px;
+        text-align: justify;
+        position: relative;
     }
 
     .hot-coffee-flex{
         flex-direction: column;
         position: relative;
+        padding: 77px 10%;
     }
 
     .hot-coffee-flex-first{
@@ -655,36 +664,40 @@ nav{
 
     .hot-coffee-img{
         width: 100%;
+        margin-top: 29%
     }
 
     .hot-coffee-flex-first>p{
         width: 100%;
     text-align: justify;
-    position: relative;
-    bottom: -92px;
+    }
+
+    .hot-coffee-txt{
+        width: 100%;
     }
 
     .hot-coffee-txt>h1{
-        text-align: justify;
-    font-size: 4.6em;
-    width: 100%;
-    margin-top: 16%;
-    position: relative;
-    top: -150px;
-    background-color: #29a19b;
+        text-align: center;
+        font-size: 4.6em;
+        width: 100%;
+        /* margin-top: 16%; */
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     .hot-coffee-txt>.order-btn{
-        margin: 4% auto;
+        margin: 0;
+        margin-top: 23px;
     }
 
     .white-coffee{
-        padding: 23% 10%;
-    padding-top: 35px;
+        padding: 18% 10%;
+        padding-top: 21px;
     }
 
     .voucher{
-        padding: 0 10%;
+        padding: 13% 10%;
     }
 
     .voucher>h1{
@@ -696,6 +709,14 @@ nav{
     margin: 14px 0;;
     position: relative;
 
+    }
+
+    .voucher>.order-btn{
+        position: relative;
+    }
+
+    .customer-reviews{
+        padding-top: 0;
     }
 
     .customer-reviews>h1{
@@ -764,16 +785,16 @@ nav{
         position: relative;
     }
 
-    .logo-div{
+    footer .logo-div{
         justify-content: start;
     height: fit-content;
     }
 
-    .logo-div>.logo{
+    footer .logo-div>.logo{
         width: 7%;
     }
 
-    .logo-div>.logo>img{
+    footer .logo-div>.logo>img{
         width: 100%;
     }
 
