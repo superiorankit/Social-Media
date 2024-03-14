@@ -646,7 +646,7 @@ nav{
         position: fixed;
         bottom: 30px;
         right: 5%;
-        background-color: #333c4c;
+        background-color: #2c333e;
         padding: 12px 10px;
         border-radius: 20px;
         z-index: 100;
@@ -668,11 +668,10 @@ nav{
     width: 50%;
     height: 40%;
     border-radius: 12px;
-    right: 18%;
-    /* bottom: 10px; */
-    bottom: 28px;
+    right: 8%;
+    bottom: 30px;
     background-color: #2c333e;
-    z-index: 100;
+    z-index: 20;
     padding: 17px 5%;
     box-shadow: black 0px -1px 4px -1px;
     transform: scale(0);
@@ -700,18 +699,12 @@ nav{
 
     }
 
-    #checkBox:checked + label + .navList{
-        left: 0;
-    
-    }
-
-    #checkBox:checked +.navDiv + .introDiv{
-        margin-top: 200px;
-    }
 
 
     #checkBox:checked + label + .nav-items{
         transform: scale(1);
+
+        right: 18%;
     }
 
     .bar{
