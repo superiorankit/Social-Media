@@ -12,7 +12,7 @@ This project showcases a well-designed Social-Media-Coffee page created using HT
 
 To enhance the aesthetics of the this page, I have incorporated an original photo. You can find the original photo in the "original-images" directory of this repository.
 
-![Original Photo](./original-image/original-image.jpg)
+![Original Photo](./public/original-image/original-image.jpg)
 
 
 ## Instructions
