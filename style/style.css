@@ -607,6 +607,10 @@ nav{
         width: 200px;
     }
 
+    .coffee-time-graphics{
+    bottom: -1px;
+    }
+
 
 
     .black-white-coffee{
@@ -780,9 +784,15 @@ nav{
         padding-bottom: 50px;
     }
 
+    .footer-graphics{
+        position: relative;
+        top: 2px;
+    }
+
     .footer-top{
         flex-direction: column;
         position: relative;
+        top: 1;
     }
 
     footer .logo-div{
