@@ -288,11 +288,11 @@ nav{
 .hot-coffee-txt>h1{
     width: 99%;
     font-weight: 100;
-    font-size: 5em;
+    font-size: 6em;
     line-height: 1;
     text-align: end;
     margin-top: 20%;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 
 .hot-coffee-txt>.order-btn{
