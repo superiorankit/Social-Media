@@ -615,7 +615,8 @@ nav{
 
     .black-white-coffee{
         padding-bottom: 64px;
-    padding-right: 10%;
+        padding-top: 40px;
+        padding-right: 10%;
     }
 
     .black-white-coffee-flex{
@@ -630,7 +631,7 @@ nav{
         width: 100%;
         font-size: 4.9em;
         position: absolute;
-        top: 0;
+        top: 3%;
         left: 0;
         text-align: center;
         letter-spacing: 1;
@@ -756,6 +757,10 @@ nav{
     z-index: 1;
     }
 
+    .branches>h1{
+        margin-top: 20px;
+    }
+
     .branch-card-box{
         flex-direction: column;
         padding: 0 10%;
@@ -764,7 +769,7 @@ nav{
 
     .branch-card{
         width: 100%;
-        margin-bottom: 26px;
+        margin-bottom: 36px;
     }
 
     .branch-img{
